@@ -4,9 +4,8 @@
 
 ```bash
 git config 
-```     
 > configurar os parametros de usuario de Git.
-
+```     
 
 ```bash
 git init        
