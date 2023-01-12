@@ -3,47 +3,59 @@
 ## Comandos empregados:
 
 ```bash
-git config       >configurar os parametros de usuario de Git.
+git config 
+```     
+> configurar os parametros de usuario de Git.
+
+
+```bash
+git init        
+> Inicialización do repositorio local.
 ```
 
 ```bash
-git init        >Inicialización do repositorio local.
+git status        
+> Comprobamos o estado do noso repositorio.
 ```
 
 ```bash
-git status        > Comprobamos o estado do noso repositorio.
-```
-
-```bash
-git add .       >Añadir cambios ao repositorio,co modificador "." indicanos que queremos engadir todo.
+git add .       
+> Añadir cambios ao repositorio,co modificador "." indicanos que queremos engadir todo.
 ``` 
 
 ```bash
-git commit -m   >Engadir unha nova versión o noso repositorio,co modificador "-m" podemos   engadir un comentario.
+git commit -m  
+ > Engadir unha nova versión o noso repositorio,co modificador "-m" podemos   engadir un comentario.
 ``` 
 
 ```bash
-git branch -M     >cambiamos o nome da rama,co modificador "-M" indicamos que se trata da rama Main.
+git branch -M    
+ > Cambiamos o nome da rama,co modificador "-M" indicamos que se trata da rama Main.
 ``` 
 
 ```bash
-git remote add     >vinculamos o noso repositorio local co repositorio da nosa conta de  GitHub.
+git remote add     
+> Vinculamos o noso repositorio local co repositorio da nosa conta de  GitHub.
 ``` 
 
 ```bash
-git push    >Operacion definitiva para subir os cambios no repositorio online, a GitHub.
+git push    
+> Operacion definitiva para subir os cambios no repositorio online, a GitHub.
 ``` 
 
 ```bash
-git clone + (link do repositorio)  >Clonar o noso repositorio de GitHub nunha carpeta local.
+git clone + (link do repositorio)  
+> Clonar o noso repositorio de GitHub nunha carpeta local.
 ``` 
 
 ```bash
-git pull       > sincroniza o noso repositorio da conta online de Git co repositorio local,trae os cambios o noso repositorio local.
+git pull       
+> Sincroniza o noso repositorio da conta online de Git co repositorio local,trae os cambios o noso repositorio local.
 ``` 
 
 ```bash
-git log      >comprobar o estado do repositorio.
+git log      
+> Comprobar o estado do repositorio.
 ```
 
 
