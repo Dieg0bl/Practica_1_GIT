@@ -55,5 +55,5 @@ git log      >comprobar o estado do repositorio.
 3. Gardamos as modificacions no repositorio con 'git add' e logo git commit
 4. Creamos o repositorio no servidor online elexido,neste caso utilizamos GitHub.
 5. Sincronizamos os cambios definitivamente co noso repositorio online utilizando 'git push'.
-6. 
+ 
 
