@@ -56,7 +56,22 @@ git pull
 git log      
 > Comprobar o estado do repositorio.
 ```
-
+```bash
+git --amend -m    
+> Modifica a mensaxe do ultimo commit
+```
+```bash
+git diff     
+> Mostra a diferencia entre o commit anterior e o contido actual.
+```
+```bash
+git show    
+> Mostra a diferencia entre os dous ultimos commit.
+```
+```bash
+git config --global color.ui auto  
+> Da color as saidas por pantalla da consola de comandos.
+```
 
 
 ## Pasos a seguir
@@ -66,5 +81,3 @@ git log
 3. Gardamos as modificacions no repositorio con 'git add' e logo git commit
 4. Creamos o repositorio no servidor online elexido,neste caso utilizamos GitHub.
 5. Sincronizamos os cambios definitivamente co noso repositorio online utilizando 'git push'.
- 
-
