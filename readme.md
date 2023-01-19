@@ -72,6 +72,15 @@ git show
 git config --global color.ui auto  
 > Da color as saidas por pantalla da consola de comandos.
 ```
+```bash
+git annotate    
+> Mostra o historico de cambios dun ficheiro determinado.
+```
+
+```bash
+git annotate    
+> Mostra o historico de cambios dun ficheiro determinado.
+```
 
 
 ## Pasos a seguir
