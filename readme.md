@@ -78,8 +78,33 @@ git annotate
 ```
 
 ```bash
-git annotate    
-> Mostra o historico de cambios dun ficheiro determinado.
+git reset --hard HEAD~  
+> Facer un reset completo tanto do commit coma do index coma do directorio de traballo indicandolle a que commit queremos volver.
+```
+
+```bash
+git reset --mixed HEAD~  Facer un reset do commit e do index soamente sen afectar o directorio de traballo indicandolle a que commit queremos volver.
+> 
+```
+
+```bash
+git reset --soft HEAD~ 
+> Facer un reset do commit  soamente indicandolle a que commit queremos volver.
+```
+
+```bash
+git  clean -f
+> borra os ficheiros que non estaban creados na ultima versión co modificador -f para forzar o borrado.
+```
+
+```bash
+git  restore 
+> utilizase para restaurar ,na rama de traballo ,o ou os aqrquivos especificados a un estado anterior especifico xeralmente o estado de rama actual.
+```
+
+```bash
+git  checkout   
+> equivalente a restore.
 ```
 
 
