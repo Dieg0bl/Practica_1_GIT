@@ -107,6 +107,26 @@ git  checkout
 > equivalente a restore.
 ```
 
+```bash
+git branch (branch -av) con branch creamos unha rama e engadindo o modificador -av visualizamos as ramas.
+> 
+```
+
+```bash
+ git checkout xunto co nome da rama indicamos que queremos cambiarnos a unha rama en concreto.
+> 
+```
+
+```bash
+git  merge utilizase para levar o contido dunha rama a outra,pode ser dunha rama secundaría a rama MAIN ou viceversa.
+> 
+```
+
+```bash
+git commit (-a -m) forma abreviada de add + commit nun unico comando.
+> 
+```
+
 
 ## Pasos a seguir
 
